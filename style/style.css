@@ -39,6 +39,9 @@
     color: wheat;
     /* border: 2px solid gray; */
    background-image: url("background.png"),linear-gradient(45deg,#1d1a1a,#181818);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 .title {
     font-size: 55px;
@@ -59,6 +62,48 @@
 }
 .btn:hover{
     color: white;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+
+}
+
+.about-title{
+    text-align: center;
+padding-top: 20px;
+
+}
+.box{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width:70px;
+}
+.box-btn{
+    background-color: blueviolet;
+    margin-top: 10px;
+
+}
+.box-title{
+    padding: 5px;
+  
+
+}
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: gray;
 }
 
 
